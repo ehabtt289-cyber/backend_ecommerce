@@ -6,7 +6,7 @@ dotenv.config()
 
 const app = express();
 app.use(cors({
-  origin:"https://f3a3c5f9-1d5a-42ea-b20b-34df0209a1c1-00-2i39bod96jyao.sisko.replit.dev",
+  origin:"https://80784a5a-a8bd-4ce6-b6bf-10b1ef1b7660-00-2hinyil98mpsx.pike.replit.dev",
   methods: ['GET','POST','DELETE','PUT','OPTIONS'],
   allowedHeaders: ['Content-Type','Authorization']
 }));
