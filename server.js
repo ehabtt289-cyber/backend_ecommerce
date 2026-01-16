@@ -33,6 +33,13 @@ app.get('/', (req, res) => {
   console.log('Hello World!')
 })
 
+// send requset to the srever in 5 minutes
+app.get('/api/health', (req , res)=>{
+   console.log(`Se`)
+    res.status(200).send('ok')
+})
+
+
 
 
 
