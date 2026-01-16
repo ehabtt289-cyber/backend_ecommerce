@@ -6,10 +6,11 @@ dotenv.config()
 
 const app = express();
 app.use(cors({
-  origin:"*",
-  methods: ['GET','POST','DELETE','PUT','OPTIONS'],
-  allowedHeaders: ['Content-Type','Authorization']
-}));
+  origin: 'https://80784a5a-a8bd-4ce6-b6bf-10b1ef1b7660-00-2hinyil98mpsx.pike.replit.dev', 
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+}
+));
 app.use(express.json());
 const PORT = process.env.PORT || 5000;
 const connectDB = require('./config/db')
